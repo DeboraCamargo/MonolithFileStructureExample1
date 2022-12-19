@@ -10,6 +10,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpikeMono.Tests", "SpikeMono.Tests\SpikeMono.Tests.csproj", "{27359273-C13C-44E5-AD1B-0203CF2C0D39}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +22,10 @@ Global
 		{3A93CF19-F221-48C5-9E09-6D38E1A57BE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A93CF19-F221-48C5-9E09-6D38E1A57BE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A93CF19-F221-48C5-9E09-6D38E1A57BE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27359273-C13C-44E5-AD1B-0203CF2C0D39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27359273-C13C-44E5-AD1B-0203CF2C0D39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27359273-C13C-44E5-AD1B-0203CF2C0D39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27359273-C13C-44E5-AD1B-0203CF2C0D39}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
