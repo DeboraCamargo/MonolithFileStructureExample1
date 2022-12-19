@@ -3,15 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32414.318
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpikeMonoAPI", "SpikeMonoAPI.csproj", "{DB09D9FD-4C10-46EA-9491-EEA5CE2DDFFA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpikeMono", "SpikeMono\SpikeMono.csproj", "{3A93CF19-F221-48C5-9E09-6D38E1A57BE0}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EAB87778-7E52-44A7-9D90-41D05413D1AD}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{974DC200-3BEA-497B-A677-FC3BAECF416A}"
 	ProjectSection(SolutionItems) = preProject
 		README.md = README.md
-		TextFile1.txt = TextFile1.txt
 	EndProjectSection
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpikeMonoAPI.Tests", "SpikeMonoAPI.Tests\SpikeMonoAPI.Tests.csproj", "{C05809B9-D51A-4F33-A5C8-59B0E63EEF8E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,19 +16,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DB09D9FD-4C10-46EA-9491-EEA5CE2DDFFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DB09D9FD-4C10-46EA-9491-EEA5CE2DDFFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DB09D9FD-4C10-46EA-9491-EEA5CE2DDFFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DB09D9FD-4C10-46EA-9491-EEA5CE2DDFFA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C05809B9-D51A-4F33-A5C8-59B0E63EEF8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C05809B9-D51A-4F33-A5C8-59B0E63EEF8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C05809B9-D51A-4F33-A5C8-59B0E63EEF8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C05809B9-D51A-4F33-A5C8-59B0E63EEF8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A93CF19-F221-48C5-9E09-6D38E1A57BE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A93CF19-F221-48C5-9E09-6D38E1A57BE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A93CF19-F221-48C5-9E09-6D38E1A57BE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A93CF19-F221-48C5-9E09-6D38E1A57BE0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {11CDF233-492D-4B7E-A295-A02A865FF593}
+		SolutionGuid = {E1628DFC-5278-4C89-A601-2722B98585AA}
 	EndGlobalSection
 EndGlobal

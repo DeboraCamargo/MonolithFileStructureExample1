@@ -7,16 +7,16 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
-COPY ["SpikeMonoAPI.csproj", "."]
-RUN dotnet restore "./SpikeMonoAPI.csproj"
+COPY ["SpikeMono/SpikeMono.csproj", "SpikeMono/"]
+RUN dotnet restore "SpikeMono/SpikeMono.csproj"
 COPY . .
-WORKDIR "/src/."
-RUN dotnet build "SpikeMonoAPI.csproj" -c Release -o /app/build
+WORKDIR "/src/SpikeMono"
+RUN dotnet build "SpikeMono.csproj" -c Release -o /app/build
 
 FROM build AS publish
-RUN dotnet publish "SpikeMonoAPI.csproj" -c Release -o /app/publish
+RUN dotnet publish "SpikeMono.csproj" -c Release -o /app/publish
 
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "SpikeMonoAPI.dll"]
+ENTRYPOINT ["dotnet", "SpikeMono.dll"]
